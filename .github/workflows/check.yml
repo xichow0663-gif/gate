@@ -7,7 +7,7 @@ on:
   # 定时检测: 默认每 24 小时一次。参数行：- cron: "0 0 * * *"
   # 不自动更新或手动更新，则去掉参数行
   schedule:
-    - cron: "0 */8 * * *"
+    - cron: "0 */4 * * *"
   workflow_dispatch:
 
 permissions:
